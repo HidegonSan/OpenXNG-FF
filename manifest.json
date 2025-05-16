@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
 
-	"version": "0.0.1",
-	"name": "OpenXNG Search",
-	"description": "Add OpenXNG as default search engine.",
+	"version": "0.0.2",
+	"name": "OpnXNG Search",
+	"description": "Add OpnXNG as default search engine.",
 	"author": "Hidegon",
 
 	// Icons: https://github.com/searxng/searxng/blob/master/src/brand/searxng-wordmark.svg
@@ -20,11 +20,11 @@
 
 	"chrome_settings_overrides": {
 		"search_provider": {
-			"name": "OpenXNG",
+			"name": "OpnXNG",
 			"search_url": "https://opnxng.com/search?q={searchTerms}",
-			"suggest_url": "https://openxng.com/autocompleter?q={searchTerms}",
+			"suggest_url": "https://opnxng.com/autocompleter?q={searchTerms}",
 			"favicon_url": "./searxng-wordmark.svg",
-			"keyword": "@openxng @oxng",
+			"keyword": "@opnxng @oxng",
 			"is_default": true
 		}
 	}
